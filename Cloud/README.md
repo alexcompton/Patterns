@@ -1,1 +1,0 @@
-https://msdn.microsoft.com/en-us/library/dn568099.aspx

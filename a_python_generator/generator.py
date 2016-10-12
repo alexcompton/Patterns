@@ -1,7 +1,7 @@
 
 import subprocess
 
-host_folder = "C:/Users/alex_compton/Desktop/patterns/Cloud"
+host_folder = "C:/Users/alex_compton/Desktop/patterns/Behavioral"
 
 def main():
     pattern_list = get_list()
