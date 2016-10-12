@@ -1,0 +1,24 @@
+Cache-aside Pattern
+Circuit Breaker Pattern
+Compensating Transaction Pattern
+Competing Consumers Pattern
+Compute Resource Consolidation Pattern
+Command and Query Responsibility Segregation (CQRS) Pattern
+Event Sourcing Pattern
+External Configuration Store Pattern
+Federated Identity Pattern
+Gatekeeper Pattern
+Health Endpoint Monitoring Pattern
+Index Table Pattern
+Leader Election Pattern
+Materialized View Pattern
+Pipes and Filters Pattern
+Priority Queue Pattern
+Queue-based Load Leveling Pattern
+Retry Pattern
+Runtime Reconfiguration Pattern
+Scheduler Agent Supervisor Pattern
+Sharding Pattern
+Static Content Hosting Pattern
+Throttling Pattern
+Valet Key Pattern
