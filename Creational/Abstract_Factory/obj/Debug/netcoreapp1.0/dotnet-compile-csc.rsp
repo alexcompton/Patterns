@@ -7,8 +7,8 @@
 -debug:portable
 -nostdlib
 -nologo
-"C:\Users\alex_compton\Desktop\patterns\Creational\Abstract_Factory\obj\Debug\netcoreapp1.0\dotnet-compile.assemblyinfo.cs"
--out:"C:\Users\alex_compton\Desktop\patterns\Creational\Abstract_Factory\bin\Debug\netcoreapp1.0\Abstract_Factory.dll"
+"c:\Users\alex_compton\Desktop\patterns\Creational\Abstract_Factory\obj\Debug\netcoreapp1.0\dotnet-compile.assemblyinfo.cs"
+-out:"c:\Users\alex_compton\Desktop\patterns\Creational\Abstract_Factory\bin\Debug\netcoreapp1.0\Abstract_Factory.dll"
 -r:"C:\Users\alex_compton\.nuget\packages\Microsoft.CSharp\4.0.1\ref\netstandard1.0\Microsoft.CSharp.dll"
 -r:"C:\Users\alex_compton\.nuget\packages\Microsoft.VisualBasic\10.0.1\ref\netstandard1.1\Microsoft.VisualBasic.dll"
 -r:"C:\Users\alex_compton\.nuget\packages\Microsoft.Win32.Primitives\4.0.1\ref\netstandard1.3\Microsoft.Win32.Primitives.dll"
@@ -82,4 +82,14 @@
 -r:"C:\Users\alex_compton\.nuget\packages\System.Threading.Timer\4.0.1\ref\netstandard1.2\System.Threading.Timer.dll"
 -r:"C:\Users\alex_compton\.nuget\packages\System.Xml.ReaderWriter\4.0.11\ref\netstandard1.3\System.Xml.ReaderWriter.dll"
 -r:"C:\Users\alex_compton\.nuget\packages\System.Xml.XDocument\4.0.11\ref\netstandard1.3\System.Xml.XDocument.dll"
-"C:\Users\alex_compton\Desktop\patterns\Creational\Abstract_Factory\Program.cs"
+"c:\Users\alex_compton\Desktop\patterns\Creational\Abstract_Factory\AbstractFactory.cs"
+"c:\Users\alex_compton\Desktop\patterns\Creational\Abstract_Factory\AbstractProductA.cs"
+"c:\Users\alex_compton\Desktop\patterns\Creational\Abstract_Factory\AbstractProductB.cs"
+"c:\Users\alex_compton\Desktop\patterns\Creational\Abstract_Factory\Client.cs"
+"c:\Users\alex_compton\Desktop\patterns\Creational\Abstract_Factory\ConcreteFactory1.cs"
+"c:\Users\alex_compton\Desktop\patterns\Creational\Abstract_Factory\ConcreteFactory2.cs"
+"c:\Users\alex_compton\Desktop\patterns\Creational\Abstract_Factory\ProductA1.cs"
+"c:\Users\alex_compton\Desktop\patterns\Creational\Abstract_Factory\ProductA2.cs"
+"c:\Users\alex_compton\Desktop\patterns\Creational\Abstract_Factory\ProductB1.cs"
+"c:\Users\alex_compton\Desktop\patterns\Creational\Abstract_Factory\ProductB2.cs"
+"c:\Users\alex_compton\Desktop\patterns\Creational\Abstract_Factory\Program.cs"
