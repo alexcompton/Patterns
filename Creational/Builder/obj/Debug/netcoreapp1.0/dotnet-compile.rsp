@@ -1,5 +1,5 @@
---temp-output:C:\Users\alex_compton\Desktop\patterns\Creational\Abstract_Factory\obj\Debug\netcoreapp1.0\
---out:C:\Users\alex_compton\Desktop\patterns\Creational\Abstract_Factory\bin\Debug\netcoreapp1.0\Abstract_Factory.dll
+--temp-output:C:\Users\alex_compton\Desktop\patterns\Creational\Builder\obj\Debug\netcoreapp1.0\
+--out:C:\Users\alex_compton\Desktop\patterns\Creational\Builder\bin\Debug\netcoreapp1.0\Builder.dll
 --define:DEBUG
 --define:TRACE
 --define:NETCOREAPP1_0
@@ -9,7 +9,7 @@
 --optimize:False
 --debug-type:portable
 --emit-entry-point:True
---output-name:Abstract_Factory
+--output-name:Builder
 --file-version:1.0.0.0
 --version:1.0.0.0
 --informational-version:1.0.0
@@ -87,14 +87,9 @@
 --reference:C:\Users\alex_compton\.nuget\packages\System.Threading.Timer\4.0.1\ref\netstandard1.2\System.Threading.Timer.dll
 --reference:C:\Users\alex_compton\.nuget\packages\System.Xml.ReaderWriter\4.0.11\ref\netstandard1.3\System.Xml.ReaderWriter.dll
 --reference:C:\Users\alex_compton\.nuget\packages\System.Xml.XDocument\4.0.11\ref\netstandard1.3\System.Xml.XDocument.dll
-C:\Users\alex_compton\Desktop\patterns\Creational\Abstract_Factory\AbstractFactory.cs
-C:\Users\alex_compton\Desktop\patterns\Creational\Abstract_Factory\AbstractProductA.cs
-C:\Users\alex_compton\Desktop\patterns\Creational\Abstract_Factory\AbstractProductB.cs
-C:\Users\alex_compton\Desktop\patterns\Creational\Abstract_Factory\Client.cs
-C:\Users\alex_compton\Desktop\patterns\Creational\Abstract_Factory\ConcreteFactory1.cs
-C:\Users\alex_compton\Desktop\patterns\Creational\Abstract_Factory\ConcreteFactory2.cs
-C:\Users\alex_compton\Desktop\patterns\Creational\Abstract_Factory\ProductA1.cs
-C:\Users\alex_compton\Desktop\patterns\Creational\Abstract_Factory\ProductA2.cs
-C:\Users\alex_compton\Desktop\patterns\Creational\Abstract_Factory\ProductB1.cs
-C:\Users\alex_compton\Desktop\patterns\Creational\Abstract_Factory\ProductB2.cs
-C:\Users\alex_compton\Desktop\patterns\Creational\Abstract_Factory\Program.cs
+C:\Users\alex_compton\Desktop\patterns\Creational\Builder\Builder.cs
+C:\Users\alex_compton\Desktop\patterns\Creational\Builder\ConcreteBuilder1.cs
+C:\Users\alex_compton\Desktop\patterns\Creational\Builder\ConcreteBuilder2.cs
+C:\Users\alex_compton\Desktop\patterns\Creational\Builder\Director.cs
+C:\Users\alex_compton\Desktop\patterns\Creational\Builder\Product.cs
+C:\Users\alex_compton\Desktop\patterns\Creational\Builder\Program.cs
