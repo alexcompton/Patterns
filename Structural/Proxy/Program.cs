@@ -1,12 +1,17 @@
 ﻿using System;
 
-namespace ConsoleApplication
+namespace Proxy
 {
     public class Program
     {
         public static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            // Create proxy and request a service
+            Proxy proxy = new Proxy();
+            proxy.Request();
+
+            // Wait for user
+            Console.ReadKey();
         }
     }
 }

@@ -1,12 +1,17 @@
 ﻿using System;
 
-namespace ConsoleApplication
+namespace Adapter
 {
     public class Program
     {
         public static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            // Create adapter and place a request
+            Target target = new Adapter();
+            target.Request();
+
+            // Wait for user
+            Console.ReadKey();
         }
     }
 }

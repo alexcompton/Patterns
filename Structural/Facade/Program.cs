@@ -1,12 +1,18 @@
 ﻿using System;
 
-namespace ConsoleApplication
+namespace Facade
 {
     public class Program
     {
         public static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Facade facade = new Facade();
+
+            facade.MethodA();
+            facade.MethodB();
+
+            // Wait for user
+            Console.ReadKey();
         }
     }
 }
