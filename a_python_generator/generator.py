@@ -1,7 +1,7 @@
 
 import subprocess
 
-host_folder = "C:/Users/alex_compton/Desktop/patterns/Behavioral"
+host_folder = "C:/Users/alex_compton/Desktop/patterns/IOC/Dependency_Injection"
 
 def main():
     pattern_list = get_list()
@@ -17,13 +17,13 @@ def get_list():
 def create_pattern(pattern):
     try:
         dir = subprocess.check_output(["mkdir", pattern.strip()], shell=True, stderr = subprocess.STDOUT, cwd=host_folder.strip())
-        print("creating pattern directory: " + pattern)
+        print("creating pattern directory: " + pattern.strip())
         folder = host_folder + "/" + pattern
         dir = subprocess.check_output(["dotnet", "new"], shell=True, stderr = subprocess.STDOUT, cwd=folder.strip())
-        print("created c# project: " + pattern)
+        print("created c# project: " + pattern.strip())
         dir = subprocess.check_output(["dotnet", "restore"], shell=True, stderr = subprocess.STDOUT, cwd=folder.strip())
-        print("restored c# project: " + pattern)
+        print("restored c# project: " + pattern.strip() + "\n")
     except subprocess.CalledProcessError:
-        print("pattern directory creation failed for: " + pattern)
+        print("pattern directory creation failed for: " + pattern.strip())
 
 main()

@@ -9,8 +9,7 @@ namespace Strategy
     {
         public override void AlgorithmInterface()
         {
-            Console.WriteLine(
-              "Called ConcreteStrategyA.AlgorithmInterface()");
+            Console.WriteLine("Called ConcreteStrategyA.AlgorithmInterface()");
         }
     }
 }

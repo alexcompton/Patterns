@@ -11,6 +11,7 @@ namespace Template_Method
         {
             Console.WriteLine("ConcreteClassA.PrimitiveOperation1()");
         }
+        
         public override void PrimitiveOperation2()
         {
             Console.WriteLine("ConcreteClassA.PrimitiveOperation2()");
