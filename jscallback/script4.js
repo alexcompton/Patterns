@@ -1,36 +1,39 @@
-// simple callback example
+// simple callback example with a loop
 var str4 = "";
 
-function a(delay, callback) {
-    setTimeout(function () {
-        str4 += 'do_a</br>';
-        callback && callback();
-    }, 3000);
+var funcs = [];
+var funcs2 = [];
+
+function createfunc(i, delay) {
+    return function() { 
+        str4 += i + ': ' + delay + 'ms</br>'; 
+    };
 }
 
-// function do_b() {
-//     str4 += 'do_b</br>';
-// }
-
-// do_a(function () {
-//     do_b();
-//     document.getElementById("script4").innerHTML = str4;
-// });
-
-function callback() {
+function printString(i,delay){
+    str4 += i + ': ' + delay + 'ms</br>'; 
     document.getElementById("script4").innerHTML = str4;
 }
 
-var itemsProcessed = 0;
-
-function processArray() {
-    for (var i = 0; i < 10; i++) {
-        var delay = Math.round((Math.random() * 3000));        
-        a(delay, function() {
-            str4 += i + ': ' + delay + 'ms</br>';
-        });
-    }
+function createfunc2(i, delay, callback) {
+    return function() { 
+        setTimeout(function () {            
+            callback && callback(i,delay);
+        }, 3000);        
+    };
 }
 
-processArray();
+str4 += '<h4>iterations</h4>';
+
+for (var i = 0; i < 10; i++) {
+    var delay = Math.round((Math.random() * 3000));
+    str4 += i + ': ' + delay + 'ms</br>';
+    funcs[i] = createfunc2(i, delay, printString);
+}
+
 document.getElementById("script4").innerHTML = str4;
+str4 += '<h4>ran async</h4>';
+
+for (var j = 0; j < 10; j++) {
+    funcs[j]();
+}
