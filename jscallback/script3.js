@@ -1,16 +1,16 @@
 
+// call back in a few different ways
+
 var str3 = '';
 
 function basic(callback) {
-    str3 += 'do something here' + '</br>';
-
+    
     var result = 'i am the result of `do something` to be past to the callback';
 
     callback && callback(result);
 }
 
 function callbacks_with_call(arg1, arg2, callback) {
-    str3 += 'do something here' + '</br>';
 
     var result1 = arg1.replace('argument', 'result'),
         result2 = arg2.replace('argument', 'result');
@@ -21,7 +21,6 @@ function callbacks_with_call(arg1, arg2, callback) {
 }
 
 function callbacks_with_apply(arg1, arg2, callback) {
-    str3 += 'do something here' + '</br>';
 
     var result1 = arg1.replace('argument', 'result'),
         result2 = arg2.replace('argument', 'result');

@@ -1,4 +1,5 @@
 
+// no callback
 var str = "";
 
 // simulate a time consuming function, this does not get printed

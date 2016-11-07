@@ -1,4 +1,5 @@
 
+// simple callback example
 var str2 = "";
 
 function do_a(callback) {
